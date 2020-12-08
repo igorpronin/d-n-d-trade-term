@@ -1,29 +1,16 @@
 # d-n-d-trade-term
 
-## Project setup
-```
-npm install
-```
+Демо: http://dnd.igorpronin.beget.tech/
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+##### Пример торгового интерфейса и блокчейн-эксплорер неподтвержденных транзакций в сети Биткоина
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Для разработки использовался один из стандартных шаблонов, предоставленных Vue CLI. В шаблоне есть изначально Vue Router и Vuex. Vuex не используется.
 
-### Run your unit tests
-```
-npm run test:unit
-```
+Дополнительно использовался пакет vue-resizable (https://www.npmjs.com/package/vue-resizable). Он был немного доработан, поскольку его базовая версия не позволяла обеспечить необходимый функционал.
 
-### Lints and fixes files
-```
-npm run lint
-```
+Требования технического задания соблюдены, однако есть баги при работе с интерфейсом терминала из-за не полного соответствия возможностей пакета vue-resizable и необходимого функционала. Это требует более комплексной проработки задания и времени на отладку. При реализации подобной задачи в продакшене необходимо закладывать время на ресерч, чтобы иметь возможность подобрать более подходящее техническое решение.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+
